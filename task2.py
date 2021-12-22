@@ -35,4 +35,5 @@ def find(stock):
         print("No matches")
 
 x = input("Enter stock symbol: ")
+x = x.upper()
 find(x)
